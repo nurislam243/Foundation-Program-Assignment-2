@@ -1,16 +1,48 @@
-# React + Vite
+# Movie Explorer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive React web application that allows users to discover trending movies, search for their favorite titles dynamically, and view detailed show information in an interactive modal. Powered by the TVMaze API.
 
-Currently, two official plugins are available:
+Live Site: https://movie-explorer-nur.netlify.app/
+Repository: https://github.com/nurislam243/Foundation-Program-Assignment-2
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero Banner Landing Page: Visually engaging landing page with an introductory banner and Call-To-Action (CTA) navigating seamlessly to the movie list.
+- Dynamic Search Integration: Search movies by title with real-time UI updates (Debounced search logic for optimized API requests).
+- Responsive Movie Grid: Clean CSS Grid layout displaying movie poster, title, release year, and star rating (Adapts to 1 col on mobile, up to 4 cols on desktop).
+- Interactive Details Modal: Interactive popup showing backdrop image, genres, rating, release date, and detailed summary.
+- Clean Navigation & Footer: Modular components including custom navigation and professional links (GitHub, LinkedIn, Facebook, YouTube).
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- Frontend: React (Vite)
+- Styling: Tailwind CSS, daisyUI
+- Icons: React Icons
+- API Integration: TVMaze Public API (https://api.tvmaze.com)
+- Deployment: Netlify
+
+---
+
+## Local Development Setup
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+   git clone https://github.com/nurislam243/Foundation-Program-Assignment-2.git
+
+2. Navigate to the project directory:
+   cd Foundation-Program-Assignment-2
+
+3. Install dependencies:
+   npm install
+
+4. Start the development server:
+   npm run dev
+
+5. Open your browser and navigate to http://localhost:5173.
+
+---
