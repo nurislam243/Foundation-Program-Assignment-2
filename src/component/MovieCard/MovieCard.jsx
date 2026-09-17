@@ -8,7 +8,7 @@ const MovieCard = ({ movie, onSeeDetails }) => {
         <img
           src={
             movie.image?.medium ||
-            "https://via.placeholder.com/210x295?text=No+Poster"
+            "https://i.ibb.co.com/wZr4Fq1s/no-image-found-360x260.png"
           }
           alt={movie.name}
           className="w-full h-full object-cover rounded-xl"

@@ -21,7 +21,7 @@ const Footer = () => {
         </div>
 
         {/* Right Side: Social Media Icons */}
-        <div className="flex items-center gap-5 text-xl text-blue-200/80">
+        <div className="flex items-center gap-5 text-lg sm:text-xl text-blue-200/80">
           <a
             href="https://github.com/nurislam243"
             target="_blank"

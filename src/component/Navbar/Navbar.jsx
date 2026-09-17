@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* Navbar Start */}
       <div className="navbar-start">
         <div className="dropdown">
-          <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
+          <div tabIndex={0} role="button" className="lg:hidden mr-1.5">
             <svg
               aria-label="Menu"
               xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ const Navbar = () => {
         {/* Brand Logo */}
         <Link to="/" className="text-xl font-bold tracking-wide flex justify-center items-center gap-1">
           <MdOutlineMovieCreation size={30} className="text-primary" />
-          MovieExplorer
+          <span className="hidden sm:flex">MovieExplorer</span>
         </Link>
       </div>
 
@@ -78,7 +78,7 @@ const Navbar = () => {
 
       {/* Navbar End */}
       <div className="navbar-end">
-        <Link to="/movies" className="btn btn-primary rounded-xl shadow-lg text-base">
+        <Link to="/movies" className="btn btn-primary rounded-xl shadow-lg sm:text-base">
           Explore Movies
         </Link>
       </div>

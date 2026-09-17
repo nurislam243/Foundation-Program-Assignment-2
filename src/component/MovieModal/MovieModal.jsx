@@ -22,7 +22,7 @@ const MovieModal = ({ selectedMovie }) => {
                 src={
                   selectedMovie.image?.original ||
                   selectedMovie.image?.medium ||
-                  "https://via.placeholder.com/600x300?text=No+Backdrop"
+                  "https://i.ibb.co.com/wZr4Fq1s/no-image-found-360x260.png"
                 }
                 alt={selectedMovie.name}
                 className="w-full h-full object-cover"
@@ -80,7 +80,7 @@ const MovieModal = ({ selectedMovie }) => {
         )}
       </div>
 
-      {/* Modal Backdrop (Click outside to close) */}
+      {/* Modal Backdrop */}
       <form method="dialog" className="modal-backdrop">
         <button>close</button>
       </form>
