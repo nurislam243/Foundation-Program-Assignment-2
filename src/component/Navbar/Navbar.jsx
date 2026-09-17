@@ -64,7 +64,7 @@ const Navbar = () => {
 
         {/* Brand Logo */}
         <Link to="/" className="text-xl font-bold tracking-wide flex justify-center items-center gap-1">
-          <MdOutlineMovieCreation size={30} />
+          <MdOutlineMovieCreation size={30} className="text-primary" />
           MovieExplorer
         </Link>
       </div>
@@ -78,7 +78,7 @@ const Navbar = () => {
 
       {/* Navbar End */}
       <div className="navbar-end">
-        <Link to="/movies" className="btn btn-primary">
+        <Link to="/movies" className="btn btn-primary rounded-xl shadow-lg text-base">
           Explore Movies
         </Link>
       </div>

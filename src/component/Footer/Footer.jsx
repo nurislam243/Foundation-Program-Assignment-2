@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 import { MdOutlineMovieCreation } from "react-icons/md";
-import { FaGithub, FaFacebook, FaYoutube, FaTwitter, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaFacebook, FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
